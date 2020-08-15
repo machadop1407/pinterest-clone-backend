@@ -1,0 +1,1 @@
+{"version":3,"file":"reactiveVars.d.ts","sourceRoot":"","sources":["../../../src/cache/inmemory/reactiveVars.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,WAAW,EAAE,MAAM,YAAY,CAAC;AAEzC,oBAAY,WAAW,CAAC,CAAC,IAAI,CAAC,QAAQ,CAAC,EAAE,CAAC,KAAK,CAAC,CAAC;AAMjD,eAAO,MAAM,SAAS;;;;;CAA+B,CAAC;AAEtD,wBAAgB,OAAO,CAAC,CAAC,EAAE,KAAK,EAAE,CAAC,GAAG,WAAW,CAAC,CAAC,CAAC,CAuBnD"}

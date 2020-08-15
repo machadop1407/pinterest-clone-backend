@@ -1,0 +1,33 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.2.0",
+    "@graphql-tools/load-files": "^6.0.16",
+    "@graphql-tools/merge": "^6.0.16",
+    "apollo-server": "^2.16.1",
+    "apollo-server-express": "^1.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.16",
+    "mysql2": "^2.1.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.4",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
