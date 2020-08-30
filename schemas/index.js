@@ -113,6 +113,23 @@ const Mutation = new GraphQLObjectType({
       },
     },
 
+    // DELETE PIN MUTATION
+    deletePin: {
+      type: PinType,
+      args: {
+        imageUrl: { type: GraphQLString },
+      },
+      resolve(parent, args) {
+        Pin.destroy({
+          where: {
+            imageUrl: args.imageUrl,
+          },
+        }).catch((err) => {
+          console.log(err);
+        });
+      },
+    },
+
     // SAVE PIN MUTATION
     savePin: {
       type: SavedPinType,
