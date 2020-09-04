@@ -22,7 +22,7 @@ app.use(
   })
 );
 
-db.sequelize.sync().then(() => {
+db.sequelize.sync().then((req) => {
   app.listen(process.env.PORT || 3001, () => {
     console.log("server running on port 3001");
   });

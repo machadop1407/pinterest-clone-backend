@@ -12,6 +12,9 @@
 /build
 /.env
 .env
+node_modules
+.vscode
+.gitignore
 ./config
 ./config/config.json
 ../config
