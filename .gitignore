@@ -15,9 +15,9 @@
 node_modules
 .vscode
 .gitignore
-/.node_modules
-/.vscode
-/.gitignore
+node_modules/
+.vscode/
+.gitignore/
 ./config
 ./config/config.json
 ../config
